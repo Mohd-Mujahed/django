@@ -1,0 +1,76 @@
+{% load static %}
+
+{% include "homebase.html" %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoImpact</title>
+    <style media="screen">
+        .jumbotron {
+            margin: 0;
+            background-image: url('{% static "images/bg.jpg" %}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .jumbotron h5 {
+            text-align: center;
+            color: black;
+            font-weight: bold; /* Make the text bold */
+        }
+    
+        .alert {
+            margin: 0;
+        }
+    
+        .glow {
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            animation: glow ease-in-out infinite alternate;
+        }
+    
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, #000000, 0 0 40px #000000, 0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+            }
+    
+            to {
+                text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+            }
+        }
+    </style>
+    
+    
+    
+    
+</head>
+
+<body>
+    <br>
+    <br>
+
+    <div class="jumbotron" style="margin-bottom: 0px; margin-top: 0px;">
+        <br>
+        <h5 class="display-3 glow"> EcoImpact - Turning e-waste into impact</h5>
+        <br><br><br><br><br>
+        <p>
+            <h3 style="color: aqua">Join us in making a positive impact on the environment </h3>
+        </p>
+    </div>
+    <br><br><br><br>
+
+    <br><br><br>
+</body>
+
+{% endblock %}
+</html>

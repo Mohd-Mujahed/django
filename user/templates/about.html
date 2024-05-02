@@ -1,0 +1,90 @@
+<!-- templates/about.html -->
+{% load static %} 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - EcoImpact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .about-us-section {
+            max-width: 800px;
+            margin: 20px auto;  /* Adjust margin for the content section */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 10px;  /* Adjust margin to reduce space between h1 and image */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Include the navbar -->
+        {% include 'navbar.html' %}
+    </header>
+
+    <section class="about-us-section">
+        <h1>About Us</h1>
+        <img src="{% static 'images/about_us_image.jpg' %}" alt="EcoImpact Image">
+        <p>
+            Welcome to EcoImpact, where we are dedicated to making a positive change in the world
+            by addressing the environmental challenges related to electronic waste.
+        </p>
+        <p>
+            Our mission is to promote e-waste recycling and raise awareness about the importance of
+            responsible electronic disposal. Through our initiatives, we strive to contribute to a
+            sustainable and eco-friendly future.
+        </p>
+        <p>
+            In a world where electronic devices are an integral part of our lives, the issue of electronic waste
+            has become more critical than ever. Rapid technological advancements lead to the generation of obsolete
+            devices, contributing to environmental degradation. At EcoImpact, we believe in taking responsibility
+            for our electronic footprint and actively working towards solutions.
+        </p>
+        <p>
+            Join us in our journey towards a cleaner, greener planet. Together, let's make a lasting impact!
+        </p>
+    </section>
+
+    <!-- Include the footer -->
+    {% include 'footer.html' %}
+
+</body>
+</html>

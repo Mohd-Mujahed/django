@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="music.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .reg {
+            width: 100%;
+            height: 90vh;
+            background: url("bg.png");
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+
+        .Data form {
+            display: inline-block;
+            text-align: left;
+        }
+
+        .Data label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        .Data input,
+        .Data textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        .Data input[type="submit"],
+        .Data input[type="reset"] {
+            width: auto;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="banner">
+        <div id="menu">
+            <h1>EcoImpact</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reg.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="course.html">Course</a></li>
+            </ul>
+        </div>
+        <section class="reg">
+            <caption>Sign Up Here</caption>
+            <div class="Data">
+                <form>
+                    <label>Username</label>
+                    <input type="text"><br>
+                    <label>Password</label>
+                    <input type="password"><br>
+                    <label>Email</label>
+                    <input type="email"><br>
+                    <label>Type</label>
+                    <input type="text"><br>
+                    <label>Address</label>
+                    <textarea></textarea><br>
+                    <input type="submit">&nbsp;&nbsp;
+                    <input type="reset">
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

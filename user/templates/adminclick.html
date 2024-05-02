@@ -1,0 +1,45 @@
+{% extends 'homebase.html' %}
+{% block content %}
+
+<style>
+    .jumbotron {
+        background-color: #f8f9fa; /* Light gray background color */
+        text-align: center;
+        margin: 50px auto; /* Center the Jumbotron */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        color: #28a745; /* Bootstrap success color */
+    }
+
+    .lead {
+        font-size: 18px;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+    .btn-success:hover {
+        background-color: #218838;
+        border-color: #218838;
+    }
+</style>
+
+<div class="jumbotron">
+    <h1 class="display-4">Hello, Environmental Superhero!</h1>
+    <p class="lead">Thank you for being a part of this noble cause. Together, we can make a positive impact on the environment.</p>
+    <hr class="my-4">
+    <p>Ready to contribute? Take the next step:</p>
+    <p class="lead">
+        <a class="btn btn-success btn-lg" href="/adminsignup/" role="button">Become a Superhero</a>
+        <a class="btn btn-success btn-lg" href="/adminlogin/" role="button">Log In</a>
+    </p>
+    <p class="lead">After logging in, you can schedule a pick-up for your electronic waste. Let's transform your e-waste into a positive impact!</p>
+</div>
+
+{% endblock content %}
