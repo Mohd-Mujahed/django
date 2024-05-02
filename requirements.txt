@@ -10,8 +10,7 @@ certifi
 chardet
 charset-normalizer
 click
-colorama
-command-not-found
+colorama 
 cryptography
 cupshelpers
 dateutils
