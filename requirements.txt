@@ -4,7 +4,6 @@ attrs
 bcrypt
 beautifulsoup4
 blinker
-Brlapi
 CacheControl
 cachetools
 certifi
