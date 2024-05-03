@@ -106,7 +106,6 @@ trio
 trio-websocket
 typing_extensions
 tzdata 
-unattended-upgrades
 uritemplate
 urllib3
 usb-creator
