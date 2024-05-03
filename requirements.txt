@@ -105,9 +105,7 @@ sqlparse
 trio
 trio-websocket
 typing_extensions
-tzdata
-ubuntu-drivers-common
-ubuntu-pro-client
+tzdata 
 ufw
 unattended-upgrades
 uritemplate
