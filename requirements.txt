@@ -84,8 +84,7 @@ PyNaCl
 pynvim
 pyparsing
 pyRFC3339
-PySocks
-python-apt
+PySocks 
 python-dateutil
 python-debian
 python-dotenv
