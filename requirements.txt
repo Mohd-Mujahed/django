@@ -12,8 +12,7 @@ charset-normalizer
 click
 colorama 
 cryptography
-dateutils
-dbus-python
+dateutils 
 defer
 distro
 distro-info
