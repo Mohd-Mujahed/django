@@ -45,8 +45,7 @@ importlib-metadata
 itsdangerous
 jeepney
 Jinja2
-keyring
-language-selector
+keyring 
 launchpadlib
 lazr.restfulclient
 lazr.uri
