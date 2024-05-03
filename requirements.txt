@@ -107,8 +107,7 @@ trio-websocket
 typing_extensions
 tzdata 
 uritemplate
-urllib3
-usb-creator
+urllib3 
 wadllib
 webdriver-manager
 Werkzeug
